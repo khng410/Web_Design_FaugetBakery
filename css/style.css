@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+}
+.editBGImg{
+  background-image: url("../img/background.png");
+  background-size: cover;
+}
+.nav-item{
+  padding: 14px 40px;
+  font-size: 150%;
+  text-align: center;
+}
+.nav-link{
+  border-radius: 14px;
+  padding: 5px 0;
+}
+.nav-link:hover{
+  background-color: black;
+  color:white;
+}
+.carousel-item img{
+  width: 100%;
+  object-fit: cover;
+}
+section h1{
+  font-size: 380%;
+  font-weight: bold;
+}
+h2{
+  font-size: 200%;
+}
+section p{
+  font-size: 150%;
+}
+.card{
+  background: none;
+  border: none;
+}
+.card{
+  text-align: center;
+  color: brown;
+}
+ footer p{
+  font-size: 110%;
+  font-weight: bold;
+  text-align: center;
+  background:linear-gradient(#bfb2ae,#dacbc6);
+  color: #b35a00;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Web 1</title>
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="./bootstrap-5.3.5/dist/css/bootstrap.min.css">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- My JS -->
+    <link rel="stylesheet" href="./js/myjs.js">
+  </head>
+  <body>
+    <div class="m-2 editBGImg">
+      <nav class="navbar navbar-expand-md">
+        <!-- navbar brand -->
+        <a class="navbar-brand m-5" href="#">
+          <img src="./img/logo.png" alt="logo" width="90">
+        </a>
+        <!-- collapse button -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navBarCollapseButt" aria-controls="navBarCollapseButt"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- collapse menu -->
+        <div class="collapse navbar-collapse justify-content-end"
+          id="navBarCollapseButt">
+          <ul
+            class="navbar-nav border-bottom border-warning border-3">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Our Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Delivery Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- carousel -->
+      <div class="row">
+        <section class="col-md-6">
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner mt-3">
+              <div class="carousel-item active">
+                <img src="./img/Pic_Slide_01.png" class="d-block" alt="Slide1">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/Pic_Slide_02.png" class="d-block" alt="Slide2">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/Pic_Slide_03.png" class="d-block" alt="Slide3">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button"
+              data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button"
+              data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+        <section class="col-md-6 py-3 px-5 mt-4">
+          <!-- text of carousel -->
+          <h2 class="text-danger">Combination of</h2>
+          <h1>Chocolate and Fresh Strawbery</h1>
+          <p class="text-danger">Chocolate cake with premium ingredients combined with
+            sprinkling of chocolate and strawberry into complete mix to accompany your
+            day</p>
+          <button type="button" class="btn btn-dark active" data-bs-toggle="button"
+            aria-pressed="true">Order Now</button>
+        </section>
+      </div>
+      <!-- card -->
+      <section class="row">
+        <div class="card col-sm-4">
+          <img src="./img/img_01.png" class="card-img-top" alt="img01">
+          <p class="card-text">Tiramisu Slices</p>
+        </div>
+        <div class="card col-6 col-sm-4">
+          <img src="./img/img_02.png" class="card-img-top" alt="img02">
+            <p class="card-text">Dark Chocolate Brownies Slices</p>
+        </div>
+        <div class="card col-6 col-sm-4">
+          <img src="./img/img_03.png" class="card-img-top" alt="img03">
+            <p class="card-text">Chocolate Brownie Slices</p>
+        </div>
+      </section>
+    </div>
+    <!-- footer -->
+       <footer>
+       <p  class="py-3">Designed by Nguyễn Gia Khánh _65131461</p>
+       </footer>
+    <script src="./bootstrap-5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
